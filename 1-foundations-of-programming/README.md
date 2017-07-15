@@ -12,9 +12,17 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
    ```js
    1 + 2
+   ```
+   ```js
    3 * 5
+   ```
+   ```js
    5 / 4 - 13
+   ```
+   ```js
    5000 * 234
+   ```
+   ```js
    1073 / 57 + 200
    ```
 
@@ -23,6 +31,8 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
    ```js
    3 + 2 * 4 - 1
+   ```
+   ```js
    (3 + 2) * (4 - 1)
    ```
 
@@ -35,10 +45,20 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
    ```js
    6 % 2
+   ```
+   ```js
    42 % 10
+   ```
+   ```js
    5 % 2
+   ```
+   ```js
    6 % 3
+   ```
+   ```js
    7 % 4
+   ```
+   ```js
    100 % 12
    ```
 
@@ -49,8 +69,14 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
    ```js
    3 % 2
+   ```
+   ```js
    4 % 2
+   ```
+   ```js
    5 % 2
+   ```
+   ```js
    6 % 2
    ```
 
