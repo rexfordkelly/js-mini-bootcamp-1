@@ -6,39 +6,60 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
 ### Basic Requirements
 
-1. In your console, copy the following function and verify
-   that the following invocations match your expectations:
+1. In your console, create the following function.
 
    ```js
    function square(num){
       return num * num;
    }
-   
+   ```
+   Now using the console, invoke you square function in the following ways:
+   ```js
    square(10) + 2;
+   ```
+   ```js
    square(100) + square(77);
+   ```
+   ```js
    square(8 / 2)
+   ```
+   ```js
    square(2 + 17);
+   ```
+   ```js
    square(square(15));
    ```
+   
+   Notice that function invokations return values, and you can use those values, 
+   inline in your expressions.
 
 2. Write a sentence in plain English describing how `square(square(15))` is
    evaluated.
+   
+   Once inoked, the function invokation becomes a value, which can itself be passed
+   to yet another function invokation.
+   
+   When we invoke `square(square(15))`, we are infact invoking the function twice. First
+   `square(15)` is invoked, passing it's result to the second (outer) square invokation.
 
 3. Rename the parameter to `square` in your above code to `monkey`, and
    rename the uses of that parameter in the body to `monkey` as well. Will the
    function `square` still work? Why or why not?
+   
+   Did everything work as before?
 
-4. What is wrong with the following definitions of `square`? Write a sentence or
-   two describing the issue(s); then, try copying the erroneous examples into a
-   console one-at-a-time and observing the error(s) generated (you may have to
-   attempt to invoke the functions to see the error). What errors are produced
-   (if any) for each erroneous version? Do the errors make sense?
-
+4. What is wrong with the following definitions of `square`? 
    ```js
    function square(monkey) {
      return x * x;
    }
-
+   ```
+   Write a sentence or two describing the issue(s); then, try copying the following 
+   erroneous examples into a console one-at-a-time and observing the error(s) 
+   generated (you may have to attempt to invoke the functions to see the error). 
+   What errors are produced (if any) for each erroneous version? 
+   
+   ```js
    function square(5) {
      return 5 * 5;
    }
@@ -47,6 +68,8 @@ Before getting started, make sure that you have a JavaScript console open (like 
      return "x" * "x";
    }
    ```
+   
+   Do the errors make sense?
 
 5. Fix the invalid syntax in the following functions (you can copy and paste these
    invalid definitions into your console and then edit them there):
@@ -63,6 +86,9 @@ Before getting started, make sure that you have a JavaScript console open (like 
    function (x) square3 {
      return x * x;
    ```
+   
+   Syntax is very important, incorrect syntax will cause errors, pay attention
+   to any errors, they usually clearly state what is wrong.
 
 6. The following functions exhibit poor style -- fix these issues using the
    original version of `square` as a reference.
@@ -105,15 +131,14 @@ Before getting started, make sure that you have a JavaScript console open (like 
 10. Write a function `greeter` that takes a name as an argument and *greets*
     that name by returning something along the lines of `"Hello, <name>!"`
 
-11. Using the document found at <a href="http://www.gbcnv.edu/documents/ASC/docs/00000005.pdf" target="_blank">this link</a>, translate the first page of geometric
-    formulas into JavaScript functions.
+11. Using the document found at <a href="http://www.gbcnv.edu/documents/ASC/docs/00000005.pdf" target="_blank">this link</a>, translate the first page of geometric formulas into JavaScript functions.
 
     As an example, a function to compute the perimeter of a rectangle might look
     like this:
 
     ```js
-    function perimeterRect(l, w) {
-      return 2 * (l + w);
+    function perimeterRect(length, width) {
+      return 2 * (length + width);
     }
     ```
 
