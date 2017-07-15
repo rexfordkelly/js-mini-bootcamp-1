@@ -30,17 +30,17 @@ Before getting started, make sure that you have a JavaScript console open (like 
    square(square(15));
    ```
    
-   Notice that function invokations return values, and you can use those values, 
+   Notice that function invocations return values, and you can use those values, 
    inline in your expressions.
 
 2. Write a sentence in plain English describing how `square(square(15))` is
    evaluated.
    
-   Once inoked, the function invokation becomes a value, which can itself be passed
-   to yet another function invokation.
+   Once inoked, the function invocations becomes a value, which can itself be passed
+   to yet another function invocations.
    
    When we invoke `square(square(15))`, we are infact invoking the function twice. First
-   `square(15)` is invoked, passing it's result to the second (outer) square invokation.
+   `square(15)` is invoked, passing it's result to the second (outer) square invocations.
 
 3. Rename the parameter to `square` in your above code to `monkey`, and
    rename the uses of that parameter in the body to `monkey` as well. Will the
