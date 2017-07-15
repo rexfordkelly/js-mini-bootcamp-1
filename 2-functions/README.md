@@ -13,7 +13,7 @@ Before getting started, make sure that you have a JavaScript console open (like 
       return num * num;
    }
    ```
-   Now using the console, invoke you square function in the following ways:
+   Now using the console, invoke your square function in the following ways:
    ```js
    square(10) + 2;
    ```
