@@ -19,12 +19,14 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```js
    5 / 4 - 13
    ```
+   Notice that the order of presedence, the division happend before, the subtraction.
    ```js
    5000 * 234
    ```
    ```js
    1073 / 57 + 200
    ```
+   Again, [PEMDAS](https://en.wikipedia.org/wiki/Order_of_operations) determins the order of operations.
 
 2. Why are the values produced by the following two expressions different? What
    are they?
@@ -35,7 +37,8 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```js
    (3 + 2) * (4 - 1)
    ```
-
+   You can override the order of operations, by useing the [Grouping Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Grouping)
+   
 3. Calculate how old you are in minutes using the console.
 
 4. What is the percentage of people in the class with brown hair? Use the
