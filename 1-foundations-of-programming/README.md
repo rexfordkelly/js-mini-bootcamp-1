@@ -42,11 +42,12 @@ Before getting started, make sure that you have a JavaScript console open (like 
 3. Calculate how old you are in minutes using the console.
    ```js
       // You can use the following outline as a template
-      ((( years * 364 ) + numberOfDaysInAYear ) * numberOfHoursInADay * numberOfMinuetesInAnHour )
+      ((( yourAgeInYears * daysInAYear ) + numberOfDaysInAYear ) * numberOfHoursInADay * numberOfMinutesInAnHour )
    ```
 
 4. What is the percentage of people in the class with brown hair? Use the
    console to find out.
+   
 
 5. Try the following expressions in the console:
 
@@ -69,8 +70,7 @@ Before getting started, make sure that you have a JavaScript console open (like 
    100 % 12
    ```
 
-   What is the significance of the result? How does the `%` (modulus) operator
-   work?
+   What is the significance of the result? How does the `%` (modulus) operator work?
 
 6. Try the following:
 
@@ -87,7 +87,9 @@ Before getting started, make sure that you have a JavaScript console open (like 
    6 % 2
    ```
 
-   What do the results tell you about the first operand to the modulus operator?
+   What do the results tell you about the first operand to the modulus operator? You can find more
+   about the modulo operator [here](https://en.wikipedia.org/wiki/Modulo_operation), simply stated, 
+   the modulo operation finds the remainder after division of one number by another.
 
 #### Strings
 
@@ -95,8 +97,7 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
 2. Write a string that represents your favorite food.
 
-3. Use the `+` operator to combine (known as *concatenation*) two or more
-   strings, *e.g.*:
+3. Use the + operator to combine (known as *concatenation*) two or more strings, *e.g.*:
 
    ```js
    // Your first and last names
