@@ -41,10 +41,8 @@ Before getting started, make sure that you have a JavaScript console open (like 
    
 3. Calculate how old you are in minutes using the console.
    ```js
-       
       // You can use the following outline as a template
       ((( years * 364 ) + days ) * numberOfHoursInADay * numberOfMinuetesInAnHour )
-   
    ```
 
 4. What is the percentage of people in the class with brown hair? Use the
